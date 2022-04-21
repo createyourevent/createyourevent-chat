@@ -1,0 +1,196 @@
+[ N 2020-10-03 23:00:24.9271 29956/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-03 23:00:24.9536 29959/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-03 23:00:24.9538 29959/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-03 23:00:24.9615 29959/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 29959
+App 29991 output: Warning: unable to write to /tmp/passenger.spawn.XXXXSt4ShE/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766027.115)
+App 29991 output: Warning: unable to write to /tmp/passenger.spawn.XXXXSt4ShE/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766027.118)
+App 29991 output: Warning: unable to write to /tmp/passenger.spawn.XXXXSt4ShE/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766027.144)
+App 29991 output: Warning: unable to write to /tmp/passenger.spawn.XXXXSt4ShE/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766027.145)
+App 29991 output: Warning: unable to write to /tmp/passenger.spawn.XXXXSt4ShE/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766027.145)
+App 29991 output: (node:29991) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 29991 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 29991 output: events.js:291
+App 29991 output:       throw er; // Unhandled 'error' event
+App 29991 output:       ^
+App 29991 output: 
+App 29991 output: Error: listen EADDRINUSE: address already in use :::3000
+App 29991 output:     at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+App 29991 output:     at listenInCluster (net.js:1366:12)
+App 29991 output:     at Server.listen (net.js:1452:7)
+App 29991 output:     at Object.<anonymous> (/home/urs_baumann_1977/createyourevent-chat/server.js:44:47)
+App 29991 output:     at Module._compile (internal/modules/cjs/loader.js:1075:30)
+App 29991 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1096:10)
+App 29991 output:     at Module.load (internal/modules/cjs/loader.js:940:32)
+App 29991 output:     at Function.Module._load (internal/modules/cjs/loader.js:781:14)
+App 29991 output:     at Module.require (internal/modules/cjs/loader.js:964:19)
+App 29991 output:     at Module.require (/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 29991 output: Emitted 'error' event on Server instance at:
+App 29991 output:     at emitErrorNT (net.js:1345:8)
+App 29991 output:     at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+App 29991 output:   code: 'EADDRINUSE',
+App 29991 output:   errno: -98,
+App 29991 output:   syscall: 'listen',
+App 29991 output:   address: '::',
+App 29991 output:   port: 3000
+App 29991 output: }
+[ E 2020-10-03 23:00:27.3096 29959/Tc age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/urs_baumann_1977/createyourevent-chat: The application process exited prematurely.
+  Error ID: 23465cdf
+  Error details saved to: /tmp/passenger-error-Lyg007.html
+
+[ E 2020-10-03 23:00:27.3156 29959/T6 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 23465cdf. Please see earlier logs for details about the error.
+[ N 2020-10-03 23:00:27.5067 29959/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-10-03 23:00:46.0276 29959/T6 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-03 23:00:46.0277 29959/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-03 23:00:46.0278 29959/T8 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-03 23:00:46.0278 29959/T8 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-03 23:00:46.0278 29959/T6 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-03 23:00:46.0278 29959/T6 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-03 23:00:46.5362 29959/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-03 23:00:56.1631 30053/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-03 23:00:56.1896 30056/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-03 23:00:56.1898 30056/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-03 23:00:56.1972 30056/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 30056
+App 30088 output: Warning: unable to write to /tmp/passenger.spawn.XXXXurcyFa/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766058.345)
+App 30088 output: Warning: unable to write to /tmp/passenger.spawn.XXXXurcyFa/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766058.349)
+App 30088 output: Warning: unable to write to /tmp/passenger.spawn.XXXXurcyFa/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766058.374)
+App 30088 output: Warning: unable to write to /tmp/passenger.spawn.XXXXurcyFa/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766058.374)
+App 30088 output: Warning: unable to write to /tmp/passenger.spawn.XXXXurcyFa/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601766058.375)
+App 30088 output: (node:30088) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 30088 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 30088 output: events.js:291
+App 30088 output:       throw er; // Unhandled 'error' event
+App 30088 output:       ^
+App 30088 output: 
+App 30088 output: Error: listen EADDRINUSE: address already in use :::3000
+App 30088 output:     at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+App 30088 output:     at listenInCluster (net.js:1366:12)
+App 30088 output:     at Server.listen (net.js:1452:7)
+App 30088 output:     at Object.<anonymous> (/home/urs_baumann_1977/createyourevent-chat/server.js:44:47)
+App 30088 output:     at Module._compile (internal/modules/cjs/loader.js:1075:30)
+App 30088 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1096:10)
+App 30088 output:     at Module.load (internal/modules/cjs/loader.js:940:32)
+App 30088 output:     at Function.Module._load (internal/modules/cjs/loader.js:781:14)
+App 30088 output:     at Module.require (internal/modules/cjs/loader.js:964:19)
+App 30088 output:     at Module.require (/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 30088 output: Emitted 'error' event on Server instance at:
+App 30088 output:     at emitErrorNT (net.js:1345:8)
+App 30088 output:     at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+App 30088 output:   code: 'EADDRINUSE',
+App 30088 output:   errno: -98,
+App 30088 output:   syscall: 'listen',
+App 30088 output:   address: '::',
+App 30088 output:   port: 3000
+App 30088 output: }
+[ E 2020-10-03 23:00:58.5316 30056/Tc age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/urs_baumann_1977/createyourevent-chat: The application process exited prematurely.
+  Error ID: 8fdbe3c5
+  Error details saved to: /tmp/passenger-error-UqfaMU.html
+
+[ E 2020-10-03 23:00:58.5375 30056/T8 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 8fdbe3c5. Please see earlier logs for details about the error.
+[ N 2020-10-03 23:00:58.7356 30056/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-10-03 23:03:26.6895 30056/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-03 23:03:26.6896 30056/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-03 23:03:26.6897 30056/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-03 23:03:26.6897 30056/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-03 23:03:26.6897 30056/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-03 23:03:26.6898 30056/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-03 23:03:27.1929 30056/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-03 23:45:42.7205 30773/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-03 23:45:42.7964 30776/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-03 23:45:42.7976 30776/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-03 23:45:42.8157 30776/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 30776
+App 30808 output: Warning: unable to write to /tmp/passenger.spawn.XXXXqUQJAH/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601768745.05)
+App 30808 output: Warning: unable to write to /tmp/passenger.spawn.XXXXqUQJAH/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601768745.053)
+App 30808 output: Warning: unable to write to /tmp/passenger.spawn.XXXXqUQJAH/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601768745.148)
+App 30808 output: Warning: unable to write to /tmp/passenger.spawn.XXXXqUQJAH/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601768745.148)
+App 30808 output: Warning: unable to write to /tmp/passenger.spawn.XXXXqUQJAH/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601768745.149)
+[ N 2020-10-03 23:45:45.4783 30776/Tb age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 30808 output: (node:30808) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 30808 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 30808 output: events.js:291
+App 30808 output:       throw er; // Unhandled 'error' event
+App 30808 output:       ^
+App 30808 output: 
+App 30808 output: Error: listen EADDRINUSE: address already in use :::3000
+App 30808 output:     at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+App 30808 output:     at listenInCluster (net.js:1366:12)
+App 30808 output:     at Server.listen (net.js:1452:7)
+App 30808 output:     at Object.<anonymous> (/home/urs_baumann_1977/createyourevent-chat/server.js:44:47)
+App 30808 output:     at Module._compile (internal/modules/cjs/loader.js:1075:30)
+App 30808 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1096:10)
+App 30808 output:     at Module.load (internal/modules/cjs/loader.js:940:32)
+App 30808 output:     at Function.Module._load (internal/modules/cjs/loader.js:781:14)
+App 30808 output:     at Module.require (internal/modules/cjs/loader.js:964:19)
+App 30808 output:     at Module.require (/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 30808 output: Emitted 'error' event on Server instance at:
+App 30808 output:     at emitErrorNT (net.js:1345:8)
+App 30808 output:     at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+App 30808 output:   code: 'EADDRINUSE',
+App 30808 output:   errno: -98,
+App 30808 output:   syscall: 'listen',
+App 30808 output:   address: '::',
+App 30808 output:   port: 3000
+App 30808 output: }
+[ E 2020-10-03 23:45:46.9578 30776/Tc age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/urs_baumann_1977/createyourevent-chat: The application process exited prematurely.
+  Error ID: b62ecb9e
+  Error details saved to: /tmp/passenger-error-ungTEi.html
+
+[ E 2020-10-03 23:45:46.9638 30776/T5 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is b62ecb9e. Please see earlier logs for details about the error.
+
+[ N 2020-10-03 23:49:23.2216 30776/T5 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-03 23:49:23.2217 30776/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-03 23:49:23.2245 30776/T8 Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-03 23:49:23.2245 30776/T8 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-03 23:49:23.2246 30776/T5 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-03 23:49:23.2246 30776/T5 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-03 23:49:23.7822 30776/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-10-03 23:50:06.2659 30874/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-03 23:50:06.2924 30877/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-03 23:50:06.2925 30877/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-03 23:50:06.3000 30877/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 30877
+App 30909 output: Warning: unable to write to /tmp/passenger.spawn.XXXXUIZHKM/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769008.449)
+App 30909 output: Warning: unable to write to /tmp/passenger.spawn.XXXXUIZHKM/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769008.453)
+App 30909 output: Warning: unable to write to /tmp/passenger.spawn.XXXXUIZHKM/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769008.479)
+App 30909 output: Warning: unable to write to /tmp/passenger.spawn.XXXXUIZHKM/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769008.479)
+App 30909 output: Warning: unable to write to /tmp/passenger.spawn.XXXXUIZHKM/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769008.48)
+App 30909 output: (node:30909) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 30909 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 30909 output: events.js:291
+App 30909 output:       throw er; // Unhandled 'error' event
+App 30909 output:       ^
+App 30909 output: 
+App 30909 output: Error: listen EADDRINUSE: address already in use :::3000
+App 30909 output:     at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+App 30909 output:     at listenInCluster (net.js:1366:12)
+App 30909 output:     at Server.listen (net.js:1452:7)
+App 30909 output:     at Object.<anonymous> (/home/urs_baumann_1977/createyourevent-chat/server.js:44:47)
+App 30909 output:     at Module._compile (internal/modules/cjs/loader.js:1075:30)
+App 30909 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1096:10)
+App 30909 output:     at Module.load (internal/modules/cjs/loader.js:940:32)
+App 30909 output:     at Function.Module._load (internal/modules/cjs/loader.js:781:14)
+App 30909 output:     at Module.require (internal/modules/cjs/loader.js:964:19)
+App 30909 output:     at Module.require (/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 30909 output: Emitted 'error' event on Server instance at:
+App 30909 output:     at emitErrorNT (net.js:1345:8)
+App 30909 output:     at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+App 30909 output:   code: 'EADDRINUSE',
+App 30909 output:   errno: -98,
+App 30909 output:   syscall: 'listen',
+App 30909 output:   address: '::',
+App 30909 output:   port: 3000
+App 30909 output: }
+[ E 2020-10-03 23:50:08.6380 30877/Tc age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/urs_baumann_1977/createyourevent-chat: The application process exited prematurely.
+  Error ID: 00bee890
+  Error details saved to: /tmp/passenger-error-RljDJY.html
+
+[ E 2020-10-03 23:50:08.6440 30877/T9 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 00bee890. Please see earlier logs for details about the error.
+[ N 2020-10-03 23:50:08.8450 30877/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-10-03 23:50:31.1156 30877/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-03 23:50:31.1156 30877/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-03 23:50:31.1157 30877/Tb Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-03 23:50:31.1157 30877/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-03 23:50:31.1157 30877/T9 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-03 23:50:31.1158 30877/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-03 23:50:31.6249 30877/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished

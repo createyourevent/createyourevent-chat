@@ -1,0 +1,31 @@
+[ N 2020-10-03 23:51:34.0229 30970/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-10-03 23:51:34.0495 30973/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-10-03 23:51:34.0496 30973/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-10-03 23:51:34.0571 30973/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 30973
+App 31005 output: Warning: unable to write to /tmp/passenger.spawn.XXXXL4kGX0/response/steps/subprocess_exec_wrapper/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769096.198)
+App 31005 output: Warning: unable to write to /tmp/passenger.spawn.XXXXL4kGX0/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769096.201)
+App 31005 output: Warning: unable to write to /tmp/passenger.spawn.XXXXL4kGX0/response/steps/subprocess_wrapper_preparation/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769096.227)
+App 31005 output: Warning: unable to write to /tmp/passenger.spawn.XXXXL4kGX0/response/steps/subprocess_wrapper_preparation/end_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769096.232)
+App 31005 output: Warning: unable to write to /tmp/passenger.spawn.XXXXL4kGX0/response/steps/subprocess_app_load_or_exec/begin_time: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1601769096.233)
+App 31005 output: (node:31005) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+App 31005 output: (Use `node --trace-warnings ...` to show where the warning was created)
+App 31005 output: Example app listening on port 3000! Go to https://localhost:3000/
+[ N 2020-10-03 23:51:36.6175 30973/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 31005 output: A user has connected to the server.
+App 31005 output: User end!
+App 31005 output: Manuel Miklo has joined the chat room.
+App 31005 output: reloadPage with userId 3
+App 31005 output: A user has connected to the server.
+[ E 2020-10-03 23:53:06.1837 30973/Tc age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/urs_baumann_1977/createyourevent-chat: A timeout occurred while spawning an application process.
+  Error ID: a5cf76ae
+  Error details saved to: /tmp/passenger-error-6hUoEo.html
+
+[ E 2020-10-03 23:53:06.1900 30973/T8 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is a5cf76ae. Please see earlier logs for details about the error.
+
+[ N 2020-10-03 23:54:11.5912 30973/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-10-03 23:54:11.5913 30973/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-10-03 23:54:11.5914 30973/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-10-03 23:54:11.5914 30973/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-10-03 23:54:11.5914 30973/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-10-03 23:54:11.5914 30973/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-10-03 23:54:12.0930 30973/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
